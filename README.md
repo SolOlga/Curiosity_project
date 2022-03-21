@@ -13,12 +13,8 @@ We use this approach in order to build and examine adversarial examples, we are 
     .
     ├── trained models                   
     ├── Curiosity_report                   
-    ├── DQN                                # documents
-    ├── gephi_graphs                        # ready gephi graphs
-    ├── images                    
-    ├── networkx_graphs                     # graphs from networkx that are ready for gephi visualization
+    ├── DQN                                # 
     ├──    NN_pert_gen.py     # creates and trains a CNN for generation of adversarial examples (AE) based on input images.
-  
     ├── curiosity_loop.py             #runs a curiosity loop and tests it. 
     ├──curiosity_loop_analysis.py        #creates graph and compares learned policy with random policy.
     ├──  dataset.py                              # a Dataset object for inner use in curiosiy loop and related algorithms.
