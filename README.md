@@ -1,7 +1,7 @@
 # Curiosity_project
 This repo is for project that was done as part of Curiosity models and applications course (taught by Goren Gordon) at TAU.
 
-In this project we learn the formulation of curiosity proposed by prof. Gordon in several papers, in particular (Gordon  et al., [2012](http://docs.wixstatic.com/ugd/80855c_e23ff5655de44647b2269b47dfaab589.pdf), Moran et al., [2019](https://docs.wixstatic.com/ugd/8c0099_cdde28eda25c472da31bd81a5cee5238.pdf)).
+In this project we learn the formulation of curiosity proposed by prof. Gordon in several papers, in particular (Gordon  et al., [2012](http://docs.wixstatic.com/ugd/80855c_e23ff5655de44647b2269b47dfaab589.pdf), Moran et al., [2019](https://docs.wixstatic.com/ugd/8c0099_cdde28eda25c472da31bd81a5cee5238.pdf)) and taught during the course.
 
 We use curiosity loop in order to try and build better adversarial examples on the MNIST dataset. 
 
