@@ -16,10 +16,10 @@ For the theoretical part we are mostly based on paper by Goodfellow  et al., [20
     ├── trained models                   
     ├── Curiosity_report                   
     ├── NN_pert_gen.py               # creates and trains a CNN for generation of adversarial examples (AE) based on input images.
-    ├── curiosity_loop.py            #runs a curiosity loop and tests it. 
-    ├── curiosity_loop_analysis.py   #creates graph and compares learned policy with random policy.
+    ├── curiosity_loop.py            # runs a curiosity loop and tests it. 
+    ├── curiosity_loop_analysis.py   # creates graph and compares learned policy with random policy.
     ├── dataset.py                   # a Dataset object for inner use in curiosiy loop and related algorithms.
-    └── mnist_model.py               #creates and trains a CNN for classification of handwritten digits (MNIST dataset) Note that a trained model mnist_cnn_epoch62.pt is supplied under the trained_models directory.
+    └── mnist_model.py               # creates and trains a CNN for classification of handwritten digits (MNIST dataset) Note that a trained model mnist_cnn_epoch62.pt is supplied under the trained_models directory.
 
 
 ### Project report 
