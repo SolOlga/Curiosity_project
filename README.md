@@ -11,31 +11,25 @@ We use this approach in order to build and examine adversarial examples, we are 
 
 
     .
-    ├── current_notebooks                   # up-to-date jupiter notebooks with the code
-    ├── data                    
-    ├── doc                                 # documents
+    ├── trained models                   
+    ├── Curiosity_report                   
+    ├── DQN                                # documents
     ├── gephi_graphs                        # ready gephi graphs
     ├── images                    
     ├── networkx_graphs                     # graphs from networkx that are ready for gephi visualization
-    ├── old_notebooks
-    ├── Complex networks - project.pdf      # project report
-    ├── README.md
-    └── requierments.txt
+    ├──    NN_pert_gen.py     # creates and trains a CNN for generation of adversarial examples (AE) based on input images.
+  
+    ├── curiosity_loop.py             #runs a curiosity loop and tests it. 
+    ├──curiosity_loop_analysis.py        #creates graph and compares learned policy with random policy.
+    ├──  dataset.py                              # a Dataset object for inner use in curiosiy loop and related algorithms.
+    └── mnist_model.py               #creates and trains a CNN for classification of handwritten digits (MNIST dataset) Note that a trained model mnist_cnn_epoch62.pt is supplied under the trained_models directory.
 
 
 ### Project report 
-Project report can be found [here](https://github.com/SolOlga/ComplexNetworks_project/blob/master/Complex%20networks%20-%20project.pdf)
+Project report can be found [here](https://github.com/SolOlga/Curiosity_project/blob/main/Curiosity_report.pdf)
 
 
 
-
-### Important files:
-
-    mnist_model.py - creates and trains a CNN for classification of handwritten digits (MNIST dataset) Note that a trained model mnist_cnn_epoch62.pt is supplied under the trained_models directory.
-    NN_pert_gen.py - creates and trains a CNN for generation of adversarial examples (AE) based on input images.
-    curiosity_loop.py - runs a curiosity loop and tests it.
-    curiosity_loop_analysis.py - creates graph and compares learned policy with random policy.
-    dataset.py - a Dataset object for inner use in curiosiy loop and related algorithms.
 
 All the code assumes a windows operating system.
 
