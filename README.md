@@ -5,8 +5,6 @@ In this project we learn the formulation of curiosity proposed by prof. Gordon i
 
 We use this approach in order to build and examine adversarial examples, we are mostly based on paper by Goodfellow  et al., [2014](https://arxiv.org/pdf/1412.6572.pdf)
 
-![My Image](images/pipeline.png)
-
 
 
 ### Directory sturcture
