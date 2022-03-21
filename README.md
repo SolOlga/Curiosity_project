@@ -1,5 +1,4 @@
 Curiosity_project
-Part 3 of the project - Curiosity Loop
 Note that some function assume a folder called trained_models was created.
 
 Important files:
